@@ -29,7 +29,7 @@ export default async function Countries() {
               </tr>
             </thead>
             <tbody>
-              {countries && countries.length > 0 ? countries.map((tweets) => (
+              {countries ? countries.map((tweets) => (
                 <tr key={tweets.id}>
                   <td className="border border-gray-300 p-2">{tweets.id}</td>
                   <td className="border border-gray-300 p-2">{tweets.username}</td>
