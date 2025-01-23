@@ -1,7 +1,7 @@
 'use server';
 import { createClient } from '@/supabaseclient';
 
-export default async function Countries() {
+export default async function Tweets() {
   const supabase = await createClient();
   console.log(supabase);
   const { data: countries } = await supabase.from("tweets").select();

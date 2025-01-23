@@ -1,4 +1,5 @@
 import React from "react";
+import Tweets from "./tweets/page";
 
 const HomePage: React.FC = () => {
   return (
@@ -9,6 +10,9 @@ const HomePage: React.FC = () => {
           <p>Name: Sufia Auliah Salsabila</p>
           <p>Matric: 092022090029</p>
         </div>
+      </section>
+      <section>
+        <Tweets></Tweets>
       </section>
     </div>
   );
