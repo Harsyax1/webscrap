@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-scroll {
+    max-height: 500px; /* Atur tinggi maksimum sesuai kebutuhan */
+    overflow-y: auto; /* Tambahkan scroll vertikal jika diperlukan */
+}
